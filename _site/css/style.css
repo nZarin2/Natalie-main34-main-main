@@ -1,0 +1,106 @@
+h1{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+  position: absolute;
+     text-transform: uppercase;
+     font-size: 5rem;
+     color: rgb(0, 0, 0);
+     margin:0;
+     padding: 0;
+  
+}
+h1:before{
+     content: attr(data-text);
+     transform-origin:bottom;
+     transform:rotatex(180deg) ;
+     line-height:0.9005em;
+     top:0;
+     Left: 0;
+    position: absolute;
+    color: rgb(8, 8, 8);
+    background: linear-gradient(0deg,rgb(0, 0, 0) 0,transparent 80%);
+    -webkit-background-clip: text;
+    color:transparent;
+    opacity: 0.5;
+   
+}
+
+
+   body{
+     background:radial-gradient(#e8cded,#b9d6dc);
+     margin:0;
+      box-sizing: border-box ;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5rem;
+   }
+   
+   
+ 
+   .topnav {
+     position: relative;
+    
+     overflow: hidden;
+   }
+   
+  
+   .topnav a {
+     float: left;
+     color: #000000;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+     border:2px solid rgb(0, 0, 0);
+     width: 170px;
+     height:30px;
+     
+   }
+   
+
+   .topnav a:hover {
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+   }
+   
+ 
+   .topnav a.active {
+     background-color: #9a758a;
+     color: rgb(0, 0, 0);
+   }
+   .topnav a:before{
+     transform:translateX(-100%);
+     transition: 0.3s;
+   }
+   
+
+   .topnav-right {
+     float: right;
+   }
+   footer {
+    margin-top: 1000px;
+   text-align: center;
+   padding: 100px;
+   background-color: DarkSalmon;
+   color: rgb(0, 0, 0);
+ 
+ }
+
+
+   
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        font-weight: 200;
+        text-align: center;
+    
+    transform: translateY(44);
+
+    }
+    
